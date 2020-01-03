@@ -8,14 +8,14 @@ A equipe de desenvolvimento foi dividida em três áres: design, usabilidade e c
 
 **Design**:
 
-. Fazer a estilização do site
+- Fazer a estilização do site
 
 **Usabilidade**:
 
-. Responsável pela interatividade entre site e usuário
-. Fazer as adaptações necessárias para o melhor funcionamento do projeto no máximo de dispositivos
+- Responsável pela interatividade entre site e usuário
+- Fazer as adaptações necessárias para o melhor funcionamento do projeto no máximo de dispositivos
 
 **Conexão**:
 
-. Estabelecer as conexões entre *client* e *server*
-. Estruturar o banco de dados
+- Estabelecer as conexões entre *client* e *server*
+- Estruturar o banco de dados
