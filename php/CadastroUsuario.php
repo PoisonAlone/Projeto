@@ -20,7 +20,7 @@
         <label>Nome:</label>
         <input type="text" name="nome" id="nome"><br/><br>
 
-        <button onclick="validar()">Cadastrar Usuário</button>
+        <button onclick="validarCadastroUsu()">Cadastrar Usuário</button>
 
     </form>
 

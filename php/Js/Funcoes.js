@@ -1,6 +1,6 @@
 
-function validar() {
-    
+function validarCadastroUsu() {
+
     event.preventDefault();
     if((document.getElementById("login").value == "") || (document.getElementById("login").value == null)){
         var hiden = document.getElementById("hidden");
