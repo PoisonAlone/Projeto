@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="./Js/Funcoes.js" type="text/javascript"></script>
+    <script src="../js/Funcoes.js" type="text/javascript"></script>
     
     <title>Document</title>
 </head>
