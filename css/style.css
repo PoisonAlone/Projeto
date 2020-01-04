@@ -1,0 +1,128 @@
+ol, ul{list-style: none;}
+a{text-decoration: none; color: inherit; transition: all .4s ease-in-out}
+a:hover{color: #f9014d;}
+
+.header{
+	background-color: #dcdcdc;
+	position: fixed;
+	width: 100%;
+	padding-top: 10px;
+	z-index: 6;
+}
+.header .logo img{
+	float: left;
+	max-width: 80px;
+	margin-bottom: 10px;
+}
+.header .nav{
+	float: right;
+	margin-top: 40px;
+
+	}
+.header .nav ul li{
+	display: inline-block;
+	margin-left: 20px;
+}
+.header .nav ul li a{
+	color: #8845FF;	
+}
+.header .nav ul li a:hover{
+	color: #f9014d;
+}
+.section{
+	margin-top: 100px;
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+.section:not(:first-of-type){
+	margin-top: 60px;
+}
+.search-box form{
+	position: relative;
+	width: 90%;
+	max-width: 500px;
+	float: left;
+	
+}
+.search-box form button{
+	background: #a70606;
+	border-radius: 6px;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+.footer{
+	background: #181818;
+	float: left;
+	width: 100%;
+	color: #fff;
+	padding: 30px 0; 
+}
+.footer-col{
+	width: 100%;
+	float: left;
+	margin-bottom: 30px;
+}
+.footer-col h1{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.footer-col-links li{
+	padding: 10px 0;
+}
+/*isso faz com que a linha de borna não tenha no ultimo link*/
+.footer-col-links li:not(:last-of-type){
+	border-bottom: 1px solid #fff;
+}
+.footer-col-social li{
+	padding: 10px 0;
+}
+/*configuração do texto ao lado do icone*/
+.footer-col-social .fab{
+	background: #000;
+	font-size: 20px;
+	margin-right: 5px;
+	height: 30px;
+	line-height: 30px;
+	width: 30px;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.footer-autorais{
+	font-size: 12px;
+	padding-top: 20px;
+	border-top: 1px solid #fff;
+	color: #ccc;
+
+}
+/*espaçamento de cada coluna do footer, glr da responsividade faça um @media query para essa parte acontecer abaixo de 768px de tela*/
+.footer-col{
+	width: 40%;
+}
+.footer-col:nth-child(2){
+	width: 30%;
+	margin-left: 5%;
+}
+.footer-col:nth-child(3){
+	width: 20%;
+	float: right;
+}
+
+
+
+/*classes auxiliares*/
+.row{float: left;width: 100%;}
+.text-center{text-align: center;}
+.content{width: 90%;max-width: 960px;margin: 0 auto;}
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+
+.fl-left{float: left;}
+.fl-right{float: right;}
+
