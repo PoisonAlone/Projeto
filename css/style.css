@@ -1,0 +1,136 @@
+body {font-family: 'Open Sans', sans-serif;font-size: inherit;}
+
+input, select, iframe, button{border: none; font-family: 'Open Sans', sans-serif;}
+
+h1, h2, h3{margin: 0, padding: 0;}
+
+ol, ul{list-style: none;}
+
+a{text-decoration: none; color: inherit; transition: all .4s ease-in-out}
+a:hover{color: #f9014d;}
+img{max-width: 100%; border: none;}
+
+
+/*header*/
+.header{
+	width: 100%;
+	padding-bottom: 80px;
+	background: #B0C4DE;
+}
+.logo img{
+	max-width: 100%;
+}
+.logo{
+	width: 80px;
+}
+.toolbar{
+	float: right;
+	width: 60%;
+}
+.toolbar ul{
+	float: right;
+	margin-top: 60px;
+}
+.toolbar ul li{
+	position: relative;
+	display: inline;
+	margin-left: 10px;
+	border-left: 2px solid #ccc;
+}
+
+.apresentacao{
+	margin-top: 20px;
+	
+}
+.apresentacao h1{
+	color: #4B0082;
+	font-size: 40px;
+	border-bottom: 5px solid #ccc;
+}
+.apresentacao a{
+	transition: all .4s ease-in-out;
+}
+.apresentacao a:hover{
+	color: #800080;
+}
+
+.works img{
+	max-width: 400px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+.works:not(:last-of-type){
+	border-bottom: 1px solid #ccc;
+}
+
+/*Footer*/
+.footer{
+	background: #181818;
+	float: left;
+	width: 100%;
+	color: #fff;
+	padding: 10px 0; 
+}
+.footer-col{
+	width: 100%;
+	float: left;
+	margin-bottom: 30px;
+}
+.footer-col h1{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.footer-col-links li{
+	padding: 10px 0;
+}
+
+.footer-col-links li:not(:last-of-type){
+	border-bottom: 1px solid #fff;
+}
+.footer-col-social li{
+	padding: 10px 0;
+}
+.footer-col-social .fab{
+	background: #000;
+	font-size: 20px;
+	margin-right: 5px;
+	height: 30px;
+	line-height: 30px;
+	width: 30px;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.footer-autorais{
+	font-size: 12px;
+	padding-top: 20px;
+	border-top: 1px solid #fff;
+	color: #ccc;
+
+}
+/*espaçamento de cada coluna do footer, glr da responsividade faça um @media query 
+para essa parte acontecer acima de 768px de tela apenas*/
+.footer-col{
+	width: 40%;
+}
+.footer-col:nth-child(2){
+	width: 30%;
+	margin-left: 5%;
+}
+.footer-col:nth-child(3){
+	width: 20%;
+	float: right;
+}
+
+/*classes auxiliares*/
+.row{float: left;width: 100%;}
+.content{width: 90%;max-width: 960px;margin: 0 auto;}
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+
+.fl-left{float: left;}
+.fl-right{float: right;}
